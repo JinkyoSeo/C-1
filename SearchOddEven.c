@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 void odd(int n[]);
@@ -8,7 +8,7 @@ int main(void) {
 	int num[5];
 	int i;
 	
-	printf("ÀÔ·Â: ");
+	printf("ìž…ë ¥: ");
 	for (i = 0;i < 5;i++) {
 		scanf("%d", &num[i]);
 	}
@@ -20,7 +20,7 @@ int main(void) {
 
 void odd(int n[]) {
 	int i;
-	printf("\nÈ¦¼ö ÀÔ·Â: ");
+	printf("\ní™€ìˆ˜ ìž…ë ¥: ");
 	for (i = 0;i < 5;i++) {
 		if (n[i] % 2 == 1)
 			printf("%d  ", n[i]);
@@ -30,7 +30,7 @@ void odd(int n[]) {
 
 void even(int n[]) {
 	int i;
-	printf("\nÂ¦¼ö ÀÔ·Â: ");
+	printf("\nì§ìˆ˜ ìž…ë ¥: ");
 	for (i = 0;i < 5;i++) {
 		if (n[i] % 2 == 0)
 			printf("%d  ", n[i]);
